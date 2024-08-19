@@ -14,6 +14,7 @@ function App() {
       <AppRouter
         setCutCount={setCutCount}
         setQuantity={setQuantity}
+        quantity={quantity}
         capturedPhotos={capturedPhotos}
       />
     </Router>
